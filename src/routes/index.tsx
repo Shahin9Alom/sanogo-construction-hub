@@ -25,7 +25,7 @@ import {
   X,
 } from "lucide-react";
 
-import logo from "@/assets/sanogo-logo.png.asset.json";
+import logo from "@/assets/sanogo-logo.png";
 import heroImg from "@/assets/hero.jpg";
 import aboutImg from "@/assets/about.jpg";
 import project1 from "@/assets/project-1.jpg";
@@ -220,7 +220,7 @@ function HomePage() {
       >
         <div className="mx-auto flex max-w-7xl items-center justify-between gap-6 px-6 py-4">
           <a href="#top" className="flex items-center">
-            <img src={logo.url} alt="Sanogo Group & Co." className="h-10 w-auto" width={220} height={90} />
+            <img src={logo} alt="Sanogo Group & Co." className="h-10 w-auto" width={220} height={90} />
           </a>
 
           <nav className="hidden items-center gap-8 lg:flex">
@@ -638,7 +638,7 @@ function HomePage() {
       {/* Footer */}
       <footer className="bg-ink py-12 text-ink-foreground">
         <div className="mx-auto flex max-w-7xl flex-col items-center gap-6 px-6 text-center sm:flex-row sm:justify-between sm:text-left">
-          <img src={logo.url} alt="Sanogo Group & Co." className="h-10 w-auto" width={220} height={90} />
+          <img src={logo} alt="Sanogo Group & Co." className="h-10 w-auto" width={220} height={90} />
           <p className="text-xs text-ink-foreground/50">
             © {new Date().getFullYear()} Sanogo Group &amp; Co. — Construction, Engineering &amp; Technical Services,
             Abidjan.
