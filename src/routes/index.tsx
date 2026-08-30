@@ -25,7 +25,7 @@ import {
   X,
 } from "lucide-react";
 
-import logo from "@/assets/sanogo-logo.png.asset.json";
+import logo from "@/assets/sanogo-logo.png";
 import heroImg from "@/assets/hero.jpg";
 import aboutImg from "@/assets/about.jpg";
 import project1 from "@/assets/project-1.jpg";
